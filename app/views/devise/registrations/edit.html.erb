@@ -1,5 +1,9 @@
 <h2>Edit <%= resource_name.to_s.humanize %></h2>
 
+  <div class="field">
+    <%= image_tag resource.photo_url %>
+  </div>
+
 <%= form_for(resource, as: resource_name, url: registration_path(resource_name), html: { method: :put }) do |f| %>
   <%= render "devise/shared/error_messages", resource: resource %>
 
@@ -8,6 +12,11 @@
     <%= f.text_field :name, autofocus: true, autocomplete: "name" %>
   </div>
 
+  <div class="field">
+    <%= f.label :provider %><br />
+    <%= f.text_field :provider, autocomplete: "provider" %>
+  </div>
+  
   <div class="field">
     <%= f.label :email %><br />
     <%= f.email_field :email, autocomplete: "email" %>

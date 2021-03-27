@@ -32,6 +32,8 @@ gem 'bootsnap', '>= 1.4.4', require: false
 #custom added gems
 gem 'devise'
 gem 'dotenv-rails', groups: [:development, :test]
+gem 'omniauth-facebook'
+gem 'omniauth-google-oauth2'
 #custom added gems end
 
 group :development, :test do

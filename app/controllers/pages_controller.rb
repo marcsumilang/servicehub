@@ -1,5 +1,6 @@
 class PagesController < ApplicationController
   def index
+    @testenv = ENV['TEST_ENV']
   end
 
   def privacy
