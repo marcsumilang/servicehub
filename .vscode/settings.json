@@ -1,0 +1,13 @@
+{
+    "emmet.includeLanguages": {
+        "erb": "html",
+        "html.erb": "html"
+    },
+    "html-css-class-completion.includeGlobPattern": "**/*.{css,html,erb,html.erb}",
+    "html-css-class-completion.CSSLanguages": [
+
+        "css",
+        "sass",
+        "scss"
+    ]
+}

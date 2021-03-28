@@ -34,6 +34,7 @@ gem 'devise'
 gem 'dotenv-rails', groups: [:development, :test]
 gem 'omniauth-facebook'
 gem 'omniauth-google-oauth2'
+gem 'nested_scaffold'
 #custom added gems end
 
 group :development, :test do
